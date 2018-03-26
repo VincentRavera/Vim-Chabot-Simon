@@ -8,7 +8,7 @@ so ~/.vim/perso/sets.vim
 so ~/.vim/perso/ab.vim
 
 "Loads Bépo mapping
-so ~/.vim/perso/bepo.vim
+"so ~/.vim/perso/bepo.vim
 
 "Loads buffers actions
 so ~/.vim/perso/buffersactions.vim
