@@ -30,9 +30,9 @@ Run:
 ```vim
 :VundleUpdate
 ```
-### Test in Docker
+## Test in Docker
 
-#### Dockerfile
+### Dockerfile
 
 To test in a docker container copy the code bellow into a file named DockerFile
 
