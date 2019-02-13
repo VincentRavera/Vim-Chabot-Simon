@@ -27,10 +27,12 @@ Bundle 'scrooloose/syntastic'
 
 Bundle 'Tagbar'
 
-Bundle 'freefem.vim'
+"Bundle 'freefem.vim'
 
 Bundle 'vim-scripts/Python-mode-klen'
 
 "Bundle 'tpope/vim-surround'
+
+Bundle 'The-NERD-tree'
 
 filetype plugin indent on     " required!

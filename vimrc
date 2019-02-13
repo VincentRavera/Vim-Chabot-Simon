@@ -24,6 +24,8 @@ so ~/.vim/perso/pluginsconf.vim
 
 so ~/.vim/perso/python-mode.vim
 
+so ~/.vim/perso/yaml-mode.vim
+
 "No Backup files
 set nobackup
 set nowritebackup
