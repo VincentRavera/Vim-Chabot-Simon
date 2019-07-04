@@ -3,6 +3,7 @@ au BufNewFile,BufRead *.tex,*.html,*.php setlocal spell spelllang=fr
 "au BufNewFile,BufRead *.c,*.cpp,*.h setlocal spell spelllang=en
 au BufNewFile,BufRead *.latex,*.sty,*.dtx,*.ltx,*.bbl,*.cls setf tex
 au BufNewFile,BufRead *.tex set softtabstop=2 nosmartindent tabstop=2
+au BufNewFile,BufRead *.yml,*.yaml set softtabstop=2 nosmartindent tabstop=2
 au BufNewFile,BufRead *alot.* setf mail
 au BufNewFile,BufRead *.pl setf prolog
 au BufNewFile,BufRead,BufEnter *.md set syntax=markdown

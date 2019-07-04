@@ -9,7 +9,7 @@ set cc=+1                 " Display the textwidth + 1' column
 set cursorline            " colore la ligne courante                   "
 set directory=~/.back,.,~ " put all in ~/.back
 set encoding=utf8
-set expandtab
+"set expandtab
 set fillchars+=stl:\ ,stlnc:\
 set formatoptions+=t
 "set formatprg=par\ w80req
@@ -55,3 +55,9 @@ else
   let fortran_fixed_source=1
   unlet! fortran_free_source
 endif
+
+" Gvim
+set guioptions-=m  "remove menu bar
+set guioptions-=T  "remove toolbar
+set guioptions-=r  "remove right-hand scroll bar
+set guioptions-=L  "remove left-hand scroll bar
