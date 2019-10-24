@@ -35,4 +35,7 @@ Bundle 'vim-scripts/Python-mode-klen'
 
 Bundle 'The-NERD-tree'
 
+"Eclim bundle works only with eclipse configured
+"Bundle 'eclim'
+
 filetype plugin indent on     " required!
