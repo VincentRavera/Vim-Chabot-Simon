@@ -26,9 +26,15 @@ so ~/.vim/perso/python-mode.vim
 
 so ~/.vim/perso/yaml-mode.vim
 
+so ~/.vim/perso/vimwiki.vim
+
+so ~/.vim/perso/airline.vim
+
+
 "No Backup files
 set nobackup
 set nowritebackup
 set noswapfile
 
 "so ~/.vim/perso/xml.vim
+

@@ -14,7 +14,8 @@ au BufEnter hg-editor* set spelllang=en
 au BufNewFile *.tex 0r ~/.vim/templates/latex_article.tex
 au FileType text,mail :setlocal spell spelllang=fr
 au FileType mail :silent! %s/^\([>|]\s\?\)\+/\=substitute(submatch(0), '\s', '', 'g').' '
-autocmd FileType python set omnifunc=pythoncomplete#Complete
+"autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType python inoremap <Nul> <C-x><C-o>
+autocmd FileType ruby set softtabstop=2 nosmartindent tabstop=2
 "au BufNewFile,BufRead *.t set filetype=cram
 augroup END

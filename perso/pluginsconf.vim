@@ -9,7 +9,7 @@ let OmniCpp_ShowPrototypeInAbbr = 2 " show function prototype (i.e. parameters) 
 
 " automatically open and close the popup menu / preview window
 au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
-set completeopt=menuone,menu,longest,preview
+"set completeopt=menuone,menu,longest,preview
 
 "let g:syntastic_python_checker = 'pylint'
 set statusline+=%#warningmsg#
