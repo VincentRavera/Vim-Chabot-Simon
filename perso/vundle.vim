@@ -2,7 +2,7 @@ set nocompatible               " be iMproved
 filetype off             " required!
 
 let g:vundle_default_git_prot = 'git' "XXX Doesn’t work
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.config/vim/bundle/Vundle.vim
 call vundle#rc()
 
 

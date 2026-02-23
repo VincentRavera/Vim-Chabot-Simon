@@ -33,11 +33,11 @@ set softtabstop=4
 "set spell                 " Spellchecking                              "
 set t_Co=256              " 256 colors mode
 set tabstop=4
-set tags+=~/.vim/tags/qt4  "idem
-set tags+=~/.vim/tags/tags "add current directory's generated tags file to available tags
+set tags+=~/.config/vim/tags/qt4  "idem
+set tags+=~/.config/vim/tags/tags "add current directory's generated tags file to available tags
 set textwidth=120
 set title
-set undodir=~/.vim/undodir
+set undodir=~/.config/vim/undodir
 set undofile              " Maintain undo history between sessions
 set vb t_vb=""		  "No visual bell"
 set wildmenu

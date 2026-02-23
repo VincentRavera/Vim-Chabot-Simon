@@ -7,10 +7,10 @@ au BufNewFile,BufRead *alot.* setf mail
 au BufNewFile,BufRead *.pl setf prolog
 au BufNewFile,BufRead,BufEnter *.md set syntax=markdown
 au BufNewFile,BufRead,BufEnter *.f90 set textwidth=80
-au bufNewFile *.py 0r ~/.vim/templates/python.py
+au bufNewFile *.py 0r ~/.config/vim/templates/python.py
 au BufEnter *.h   set syntax=cpp.doxygen
 au BufEnter hg-editor* set spelllang=en
-au BufNewFile *.tex 0r ~/.vim/templates/latex_article.tex
+au BufNewFile *.tex 0r ~/.config/vim/templates/latex_article.tex
 au FileType text,mail :setlocal spell spelllang=fr
 au FileType mail :silent! %s/^\([>|]\s\?\)\+/\=substitute(submatch(0), '\s', '', 'g').' '
 autocmd FileType python set omnifunc=pythoncomplete#Complete
